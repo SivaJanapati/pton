@@ -1,0 +1,31 @@
+from math import *
+
+def ispronic(num):
+    
+    if num%2==0:
+        a=int(sqrt(num))
+        return a*(a+1)==num
+    else:
+        return False
+        
+        
+num=int(input())
+print (ispronic(num))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
